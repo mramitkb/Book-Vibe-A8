@@ -1,9 +1,10 @@
 import OneBook from '../../../public/Files/Banner.jpg';
 import '../../index.css'
+import Books from '../Books/Books';
 const Home = () => {
   return (
-    <div className="bg-[#F3F3F3] rounded-3xl px-24 py-20 mt-12">
-      <div className='flex items-center justify-around'>
+    <div className="">
+      <div className='flex items-center justify-around bg-[#F3F3F3] rounded-3xl px-24 py-20 mt-12'>
         <div className='space-y-8'>
           <h2 className='playfair text-[56px] font-bold text-[#131313]'>
             Books to freshen up <br />
@@ -16,6 +17,10 @@ const Home = () => {
         <div className='max-h-[394px] max-w-[318px]'>
             <img src={OneBook} alt="" />
         </div>
+      </div>
+      {/* Books start */}
+      <div>
+        <Books></Books>
       </div>
     </div>
   );
