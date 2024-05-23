@@ -1,7 +1,11 @@
+import { useLoaderData } from 'react-router-dom';
 import OneBook from '../../../public/Files/Banner.jpg';
 import '../../index.css'
 import Books from '../Books/Books';
 const Home = () => {
+
+  const books = useLoaderData()
+  console.log(books)
   return (
     <div className="">
       <div className='flex items-center justify-around bg-[#F3F3F3] rounded-3xl px-24 py-20 mt-12'>
