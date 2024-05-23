@@ -25,15 +25,15 @@ const NavBar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
-            <li>
-              <a>Home</a>
-            </li>
-            <li>
-              <a>Listed Books</a>
-            </li>
-            <li>
-              <a>Pages to Read</a>
-            </li>
+            <div>
+            <NavLink to="/" className={({isActive})=> isActive ? "text-[#23BE0A] font-semibold" : ""}>Home</NavLink>
+          </div>
+          <div>
+            <NavLink to="/listed-books" className={({isActive})=> isActive ? "text-[#23BE0A] font-semibold" : ""}>Listed Books</NavLink>
+          </div>
+          <div>
+            <NavLink to="/pages-to-read" className={({isActive})=> isActive ? "text-[#23BE0A] font-semibold" : ""}>Pages to Read</NavLink>
+          </div>
           </ul>
         </div>
         <a className="btn btn-ghost text-[28px] font-extrabold text-[#131313]">
