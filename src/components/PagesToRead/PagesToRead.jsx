@@ -47,10 +47,10 @@ const TriangleBar = (props) => {
 
 export default function App() {
   return (
-    <div className="w-full mx-auto mt-24 bg-gray-100 rounded-xl p-20">
+    <div className="w-full mx-auto mt-12 bg-gray-100 rounded-xl p-20">
       <BarChart
         width={1400}
-        height={300}
+        height={600}
         data={data}
         margin={{
           top: 20,
