@@ -60,7 +60,7 @@
       "totalPages": 214,
       "rating": 4.3,
       "category": "Fiction",
-      "tags": ["Coming-of-Age", "Rebellion"],
+      "tags": ["Classic", "Rebellion"],
       "publisher": "Little, Brown and Company",
       "yearOfPublishing": 1951
     },
@@ -73,7 +73,7 @@
       "totalPages": 310,
       "rating": 4.8,
       "category": "Fantasy",
-      "tags": ["Fantasy", "Adventure"],
+      "tags": ["Fantasy", "Classic"],
       "publisher": "George Allen & Unwin",
       "yearOfPublishing": 1937
     },
@@ -86,7 +86,7 @@
       "totalPages": 635,
       "rating": 4.1,
       "category": "Adventure",
-      "tags": ["Adventure", "Sea"],
+      "tags": ["Adventure", "Classic"],
       "publisher": "Harper & Brothers",
       "yearOfPublishing": 1851
     },
@@ -99,7 +99,7 @@
       "totalPages": 1225,
       "rating": 4.6,
       "category": "Historical",
-      "tags": ["War", "Epic"],
+      "tags": ["Political", "Classic"],
       "publisher": "The Russian Messenger",
       "yearOfPublishing": 1869
     },
@@ -112,7 +112,7 @@
       "totalPages": 453,
       "rating": 4.2,
       "category": "Satire",
-      "tags": ["War", "Satire"],
+      "tags": ["Political", "Satire"],
       "publisher": "Simon & Schuster",
       "yearOfPublishing": 1961
     }

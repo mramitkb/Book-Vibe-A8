@@ -7,9 +7,9 @@ const Books = () => {
     console.log(books)
 
     // event handler
-    const handleBooksCard = () =>{
+    // const handleBooksCard = () =>{
 
-    }
+    // }
 
     useEffect(()=>{
         fetch('books.json')
